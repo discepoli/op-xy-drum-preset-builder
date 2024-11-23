@@ -20,3 +20,5 @@ python generate_drum_preset.py <path_to_preset_folder>
 One thing I know is a bit weird is that this spript does properly set the loop end point for samples. This is pretty quick to fix (just twist the light grey knob if you notice it). I'm sure there's a way to get this scrip to set the propper framecount and loop end, but I'm not sure how to do that.
 
 I used ChatGPT to write this. I'm audited the code a bit, but I'm not a seasoned python developer, so if there are bugs or inefficiency, I appoligize! I probably wont be able to help you troubleshoot much. If you have suggestions though, feel free to submit a pull request.
+
+It would be great if we could create an interface to modify the other parameters in the JSON in a way that made sense. For now though this will hopefully allow you to quickly build drumkits.
